@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: drplfnsyw
+  api_key: '835522419173398'
+  api_secret: vCr9uL4kLqWXReF_MmDYpjD_lSU
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: drplfnsyw
+  api_key: '835522419173398'
+  api_secret: vCr9uL4kLqWXReF_MmDYpjD_lSU
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: drplfnsyw
+  api_key: '835522419173398'
+  api_secret: vCr9uL4kLqWXReF_MmDYpjD_lSU
+  enhance_image_tag: true
+  static_image_support: false

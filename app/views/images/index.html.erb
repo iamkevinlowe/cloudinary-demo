@@ -1,0 +1,7 @@
+<%= form_tag images_path do %>
+  <%= cl_image_upload_tag :image_id %>
+  <%= hidden_field_tag :image_id %>
+  <%= submit_tag "Submit" %>
+<% end %>
+
+<%= cloudinary_js_config %>
