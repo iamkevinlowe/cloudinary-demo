@@ -4,6 +4,12 @@ class ImagesController < ApplicationController
   end
 
   def create
-    binding.pry
+    if params[:image_id].present?
+      @message = "We got something: #{params[:image_id]}"
+    else
+      @message = "Nope"
+    end
+
+    render :index
   end
 end

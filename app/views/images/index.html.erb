@@ -1,3 +1,7 @@
+<h2>
+  <%= @message %>
+</h2>
+
 <%= form_tag images_path do %>
   <%= cl_image_upload_tag :image_id %>
   <%= hidden_field_tag :image_id %>
