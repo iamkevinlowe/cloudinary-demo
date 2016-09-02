@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root to: 'images#index'
 
-  resources :images, only: :create
+  resources :images, only: [:index, :create]
 end

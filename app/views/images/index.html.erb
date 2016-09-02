@@ -1,10 +1,13 @@
-<h2>
+<h2 id="message">
   <%= @message %>
 </h2>
 
+<div id="image">
+  <%= cl_image_tag(@image.image_id) if @image %>
+</div>
+
 <%= form_tag images_path do %>
   <%= cl_image_upload_tag :image_id %>
-  <%= hidden_field_tag :image_id %>
   <%= submit_tag "Submit" %>
 <% end %>
 
